@@ -1,5 +1,5 @@
 
-module.exports = function(config) {
+module.exports = function (config) {
   config.set({
     
     basePath: '',
@@ -25,7 +25,7 @@ module.exports = function(config) {
     
     
     
-    reporters: ['progress'],
+    reporters: ['spec'],
     
     port: 9876,
     
