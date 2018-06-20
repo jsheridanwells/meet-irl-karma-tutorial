@@ -9,12 +9,21 @@ module.exports = function (config) {
     
     files: [
       './node_modules/angular/angular.js',
-      './node_modules/angular-ui-router/angular-ui-router.js',
+      './node_modules/angular-ui-router/release/angular-ui-router.js',
       './node_modules/angular-mocks/angular-mocks.js',
-      'app/services/users/users.js',
-      'app/app.js',
-      'app/services/users/users.spec.js'
+      './app/app.js',
+      './app/components/users/users.js',
+      './app/components/users/users.spec.js',
+      './app/services/users/users.js',
+      './app/services/users/users.spec.js',
+      './app/services/pokemon/pokemon.js',
+      './app/services/pokemon/pokemon.spec.js'
     ],
+
+    browserConsoleLogOptions: {
+      level: '',
+      terminal: true
+    },
     
     exclude: [
     ],
